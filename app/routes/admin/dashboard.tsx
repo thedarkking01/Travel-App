@@ -1,6 +1,6 @@
 import {Header, StatsCard, TripCard} from "../../../components";
 import {dashboardStats, user, allTrips} from "~/constants";
-const { totalUsers, usersJoined, totalTrips, tripsCreated, userRole } = dashboardStats;
+    const { totalUsers, usersJoined, totalTrips, tripsCreated, userRole } = dashboardStats;
 
 const Dashboard = () => {
     return (
